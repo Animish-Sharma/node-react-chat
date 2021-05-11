@@ -1,0 +1,13 @@
+/backend/node_modules/
+/backend/.env
+/backend/.sequelizerc
+/backend/uploads/
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build

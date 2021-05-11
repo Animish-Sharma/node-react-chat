@@ -1,0 +1,48 @@
+
+#msg-box {
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    flex-grow: 2;
+    height: 100%;
+    margin-bottom: 10px;
+
+    .other-person {
+        max-width: fit-content
+    }
+
+    .loader {
+        text-align: center;
+    }
+
+    .mt-5p {
+        margin-top: 5px;
+    }
+    .message-t{
+        display: flex;
+        padding-right: 5px;
+        margin-top: 20px;
+        text-align: left;
+    
+        p {
+            word-wrap: break-word;
+            word-break: break-word;
+        }
+    
+        &>div {
+            border-radius: 20px;
+        }
+    
+        .other-person {
+            background-color: #F1F2F8;
+            padding: 4px 8px;
+        }
+    
+        .dots {
+            margin: -5px 0 3px 0;
+        }
+    
+        img {
+            max-width: 200px;
+        }
+    }
+};

@@ -1,0 +1,57 @@
+@import '../../assets/scss/variables';
+#chat-container{
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $bg-gray;
+    height: 100%;
+    margin: 0 !important;
+
+    #chat-wrap{
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        overflow: hidden;
+        padding: 2rem 1rem;
+    }
+}
+
+.offline{
+    display: block;
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
+
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+
+    background-color: $offline-status;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
+.online{
+    display: block;
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
+
+    -moz-border-radius: 12px; /* or 50% */
+    border-radius: 12px; /* or 50% */
+
+    background-color: $online-status;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+
+}
+.fa-icon{
+    color: black;
+    margin-left: 5px;
+    cursor: pointer;
+}   
